@@ -20,8 +20,15 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**: Aplikácia slúži na vyhľadávanie miesta na kúpanie v okolí zvoleného bodu na mape ako sú kúpaliská, jazerá, vodné nádrže či rybníky. Taktiež umožňuje vyhľadať tie miesta na kúpanie, pri ktorých sa v zadanej vzdialenosti nachádza buď zastávka verejnej hromadnej dopravy alebo parkovisko pre autá. Aplikácia tiež umožňuje vyhľadať 10 najbližších miest na stravovanie v okolí zvoleného miesta na kúpanie. V prípade potreby kúpiť plavecké pomôcky, umožňuje aplikácia tiež vyhľadať nákupné centrá, v ktorých sa podľa zvoleného spôsobu dopravy nachádza parkovisko pre autá alebo pre bicykle.
 
-**Data source**: `<fill in>`
+**Data source**: [Open Street Maps](https://www.openstreetmap.org/)
 
-**Technologies used**: `<fill in>`
+**Technologies used**: 
+- Mapbox 
+- PostgreSQL 9.5 
+- PostGIS 2.3
+- Node.js
+- Express
+
+
