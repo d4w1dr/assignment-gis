@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Swim Up</title>
+	<meta charset=utf-8 />
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+	<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="map" class="col-lg-9">
+		</div>
+		<div id="panel" class="col-lg-3">
+			<H2>Vitajte!</H2>
+
+			<div class="form-group">
+				<label> Zadaj vzdialenost:</label>
+				<input type="text" id="dist" name="distance" value="" placeholder="Okruh v metroch" class="form-control">
+				<button id="submitButton1" class="btn btn-info">Potvrdit</button>
+			</div>
+			<div class="form-group">
+				<label> Vyberte sposob dopravy:</label>
+				<input type="text" id="trans" name="trans" value="" placeholder="Vzdialenost v metroch" class="form-control">
+				<div class="checkbox">
+					<label><input type="checkbox" id="mhd" value="mhd">MHD</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" id="car" value="car">Auto</label>
+				</div>
+				<button id="submitButton2" class="btn btn-info">Potvrdit</button>
+			</div>
+			<div class="form-group">
+				<label for="places">Zvolte miesto:</label>
+				<select class="form-control" id="places">
+					<option value="Bazén Mokrohájska">Bazén Mokrohájska</option>
+					<option value="Detský bazén">Detský bazén</option>
+					<option value="Detsky Bazen Mokrohajska">Detsky Bazen Mokrohajska</option>
+					<option value="Gaudeamus Bazen">Gaudeamus Bazen</option>
+					<option value="Kneippov kúpeľ">Kneippov kúpeľ</option>
+					<option value="Kuchajda">Kuchajda</option>
+					<option value="Kúpalisko Iuventa">Kúpalisko Iuventa</option>
+					<option value="Malý bazén">Malý bazén</option>
+					<option value="Malý Draždiak">Malý Draždiak</option>
+					<option value="Plaváreň Pasienky">Plaváreň Pasienky</option>
+					<option value="Plaváreň ZŠ Alexandra Dubčeka">Plaváreň ZŠ Alexandra Dubčeka</option>
+					<option value="Plavecká akadémia">Plavecká akadémia</option>
+					<option value="Plavecký bazén">Plavecký bazén</option>
+					<option value="Plavecký Bazén">Plavecký Bazén</option>
+					<option value="Relaxačný bazén">Relaxačný bazén</option>
+					<option value="Rohlík">Rohlík</option>
+					<option value="Stredný bazén">Stredný bazén</option>
+					<option value="Štrkovecké jazero">Štrkovecké jazero</option>
+					<option value="Štvrtý rybník">Štvrtý rybník</option>
+					<option value="Tretí rybník">Tretí rybník</option>
+					<option value="Vajnorské jazero">Vajnorské jazero</option>
+					<option value="Veľký bazén">Veľký bazén</option>
+					<option value="Zlaté piesky">Zlaté piesky</option>
+					<option value="water baby club">water baby club</option>
+				</select>
+				<button id="submitButton3" class="btn btn-info">Potvrdit</button>
+			</div>
+			<div class="form-group">
+				<label> Vyberte typ parkovania:</label>
+				<div class="checkbox">
+					<label><input type="checkbox" id="car_park" value="car_park">Auto</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" id="bike_park" value="bike_park">Bike</label>
+				</div>
+				<button id="submitButton4" class="btn btn-info">Potvrdit</button>
+			</div>
+		</div>
+	</div>
+
+	<script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+	<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-osm/v0.1.0/leaflet-osm.js'></script>
+	<script src="/js/script.js"></script>
+</body>
+
+</html>

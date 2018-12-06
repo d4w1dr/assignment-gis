@@ -1,0 +1,5 @@
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:75%;}
+#panel { float: right; top:0; bottom:0; width:25%;}
+		.btn-info {margin-top: 5px;}
+#trans {margin-bottom: 5px;}
