@@ -20,7 +20,7 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: Aplikácia slúži na vyhľadávanie miesta na kúpanie v okolí zvoleného bodu na mape ako sú kúpaliská, jazerá, vodné nádrže či rybníky. Taktiež umožňuje vyhľadať tie miesta na kúpanie, pri ktorých sa v zadanej vzdialenosti nachádza buď zastávka verejnej hromadnej dopravy alebo parkovisko pre autá. Aplikácia tiež umožňuje vyhľadať 10 najbližších miest na stravovanie v okolí zvoleného miesta na kúpanie. V prípade potreby kúpiť plavecké pomôcky, umožňuje aplikácia tiež vyhľadať nákupné centrá, v ktorých sa podľa zvoleného spôsobu dopravy nachádza parkovisko pre autá alebo pre bicykle.
+**Application description**: Aplikácia slúži na vyhľadanie miest na kúpanie ako kúpaliská, jazerá, vodné nádrže či rybníky v okolí zvoleného bodu. Umožňuje tiež vyhľadať tie miesta na kúpanie, v ktorých okolí sa v zadanej vzdialenosti nachádza zastávka verejnej hromadnej dopravy alebo parkovisko pre autá. Aplikácia ďalej umožňuje vyhľadať 10 najbližších miest na stravovanie v okolí zvoleného miesta na kúpanie ako aj nákupné centrá, v ktorých sa nachádza parkovisko pre autá alebo pre bicykle.
 
 **Data source**: [Open Street Maps](https://www.openstreetmap.org/)
 
